@@ -1,0 +1,29 @@
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lmj-categories-select {
+	margin-right: 15px;
+}
+
+.btn {
+	color: #fff;
+	background-color: #31b572;
+	padding: 10px 15px;
+	border-radius: 15px;
+	border: none;
+}
+
+@media all and (max-width: 680px) {
+	.lmj-categories {
+		text-align: right;
+		padding-right: 10px;
+	}
+}
+
+@media all and (max-width: 380px) {
+	.lmj-categories-select {
+		margin-right: 5px;
+	}
+}
